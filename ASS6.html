@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <meta charname = "viewport" device = "width = device-width initial-scale = 1.0">
+        <title> Menu card </title>
+        <link href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+        <style>
+            body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Menu {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px;
+}
+
+.card-content a {
+    color: #d0b200;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+        </style>
+    </head>
+    <body>
+        <div class = "Menu">
+            <h1> Explore menu </h1>
+        <div class = "grid-container">
+            <div class = "card">
+                <img src = "C:\Users\risan\OneDrive\Desktop\DNYX\non veg pic.jpg" alt = "Food.jpg">
+                <div class = "card-content">
+                    <h2> Non Veg Food </h2>
+                    <a href = "#"> View more -> </a>
+                </div>
+            </div>
+                <div class = "card">
+                <img src = "C:\Users\risan\OneDrive\Desktop\DNYX\veg pic.jpg" alt = "Veg food">
+                <div class = "card-content">
+                    <h3> Veg Food </h3>
+                    <a href = "#"> View More -> </a>
+                </div>
+            </div>
+                <div class = "card">
+                <img src = "C:\Users\risan\OneDrive\Desktop\DNYX\desert pic.jpg" alt = "Desserts">
+                <div class = "card-content">
+                    <h4> Desserts </h4>
+                    <a href = "#"> View more -> </a>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
